@@ -34,7 +34,7 @@ class Hello(messages.Message):
     """String that stores a message."""
     greeting = messages.StringField(1)
 
-
+# start chrome with /usr/bin/google-chrome-stable --user-data-dir=test --allow-running-insecure-content=http://localhost:8080
 @endpoints.api(name='helloworldendpoints', version='v1')
 class HelloWorldApi(remote.Service):
     """Helloworld API v1."""
