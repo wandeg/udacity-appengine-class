@@ -28,6 +28,7 @@ from models import ProfileForm
 from models import TeeShirtSize
 
 from settings import WEB_CLIENT_ID
+from utils import getUserId
 
 EMAIL_SCOPE = endpoints.EMAIL_SCOPE
 API_EXPLORER_CLIENT_ID = endpoints.API_EXPLORER_CLIENT_ID
